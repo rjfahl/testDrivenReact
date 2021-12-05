@@ -53,7 +53,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'pfw-kata-demo'
+          app-name: 'pfw-kata-demo-rob'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_22965C0AC9B14B87A6CA507062338F48 }}
           package: release.zip
